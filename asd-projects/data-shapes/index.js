@@ -93,7 +93,7 @@ $(document).ready(function () {
 
   function badDisplay() {
     // TODO 5-b: call your handleBad function
-    var currenshape =dataShapes[currentIndex];
+    var currenshape = dataShapes[currentIndex];
     var repeat = currentShape.repeat;
     handlebad(currentShape, repeat);
   }
